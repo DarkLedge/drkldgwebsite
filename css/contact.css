@@ -1,0 +1,56 @@
+@import "/css/style.css";
+.container{
+    width: 1050px;
+    top: -80px;
+    position: relative;
+    margin: 20px auto;
+
+    text-align: center;   
+}
+.title{
+    color: white;
+    margin:7%;
+    font-size: 2vw;  
+    text-align: center;
+}
+.con1{
+    width: 550px;
+    height: auto;
+    float: right;
+}
+.und2 img{
+    float: left; 
+    margin: 3% 2%;
+    /*border: 2px solid white;*/
+    
+}
+input[type=text], textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 1rem;
+    display: inline-block; 
+    background: none;
+    color: #00b86b;
+    border-radius: 10px;
+    border: 2px solid #00948d;
+}
+textarea {
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    width: 50%;
+    background-color: #00cec3;
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    padding: 10px 16px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+

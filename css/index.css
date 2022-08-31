@@ -1,0 +1,131 @@
+
+@import "/css/style.css";
+
+.wrapper{
+    margin: 15% 8%;
+    color: white;
+    font-size: 2vw;
+    display: flex;
+    justify-content: space-around;
+}
+.wrapper1{
+    margin: 2% 10%;
+    color: white;
+    font-size: 2vw;
+    display: flex;
+    justify-content: space-around;
+}
+.circle h3{
+    font-weight:normal;
+}
+.skills{
+    width: 100%;
+    margin-left: -29%;
+}
+.skills h4{
+    font-weight:normal;
+}
+.details{
+    margin-top: 30px;
+}
+.und1 img{
+    height: auto;
+    max-width: 100%;
+    margin: -15% 5%;
+}
+.iconss{
+    margin: 3% -5%;
+}
+.iconss img{
+    padding-left: 5%;
+    cursor: pointer;
+}
+.title{
+    margin-top: -7%;
+    color: white;
+    font-size: 2vw;  
+    text-align: center;
+}
+
+.container{
+    max-width: 100%;
+    width:1000px;
+    top: -50px;
+    position: relative;
+    margin: 20px auto;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: space-around; 
+}
+.con1{
+    margin-top: 5%;
+    border: 2px solid #007e49;
+    width: 300px;
+    height: 350px;
+    border-radius: 10%;
+}
+.circle{
+    border-radius: 15px;
+    width: 240px;
+    height: 150px;
+    margin: 10px auto;
+    text-align: center;
+    color: rgb(206, 206, 206);
+}
+.con1 img{
+    margin: 6% auto;
+}
+button,
+button::after {
+   -webkit-transition: all 0.3s;
+   -moz-transition: all 0.3s;
+   -o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+button {
+    background: #272727;
+    border: 2px solid #00beb5;
+    border-radius: 5px;
+    color: rgb(233, 233, 233);
+    cursor: pointer;
+    font-size: 1em;
+    margin: 1em auto;
+    padding: 0.6em 0.6em;
+    position: relative;
+    text-transform: uppercase; 
+    font-weight:normal;
+}
+button:hover {
+    color: #00ddd2;
+}
+a:hover{
+    color: #00c975;
+}
+
+.progress {
+    margin:10px auto;
+    width:100%;
+    height:30px;
+    overflow:hidden;
+    margin-left: -24%;
+    border-radius:6px;
+    border: 3px solid #00ada5;
+  }
+  .bar {
+    position:relative;
+    float:left;
+    height:100%;
+    background:#00ada5;
+  }
+  .percent {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-family:tahoma,arial,helvetica;
+    font-size:12px;
+    color:black;
+  }
+
+

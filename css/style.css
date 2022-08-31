@@ -1,0 +1,121 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+/*body{
+    background-image: url("/images/img1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}*/
+body{
+    background-color: #141414;
+}
+.conerror{
+   
+    
+    
+    margin: 1% ;
+    text-align: center;
+    font-size: 1.5em;
+}
+.box{
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+.navbar{
+    box-shadow: 0px 2px 3px 0px #00fff2;
+    position: fixed;
+    width: 100%;
+    opacity: 0.85;
+    background: #272727; 
+    top: 0;
+    z-index: 1;
+}
+.navbar a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3 ease-in-out;
+}
+.navbar a:hover{
+    color: #00ff95;
+}
+
+.navbar-container{
+    display: flex;
+    /*justify-content:space-around;*/
+    justify-content:space-between;
+    align-items: center;
+    height: 64px;
+}
+.navbar input[type="checkbox"],.navbar .hamburger-lines{
+    display: none;
+}
+.menu-items{
+    display: flex;
+}
+
+.menu-items li{
+    list-style: none;
+    margin-left: 1.5rem;
+    font-size: 1.3rem;
+}
+.name{
+    font-size: 2.3rem;
+}
+.button{
+    padding: 6px 12px;
+    margin-left: 5px;
+    /*margin-left: 150px;*/
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px; 
+}
+.button1 {
+    background-color: rgba(255,255,255,0);
+    color: rgb(255, 255, 255); 
+    border: 2px solid #00ff95;
+}
+.footer{
+    opacity: 0.85;
+    width: 100%;
+    padding: 0.5em;
+    background-color: #272727;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+     border-top: 2px solid #067c76;
+ }
+ .footer h3{
+     margin-top: 0.5%;
+     color: white;
+     font-weight: normal;
+ }
+ .iconss1{
+     display: flex;
+     width:30%;
+ }
+ .iconss1 a{
+     margin-left: 10%;
+ }
+ .iconss1 img{
+     width: 27px;
+ }
+ .footer span{
+     color: #00ff95 ; 
+     font-weight: bold; 
+     cursor: pointer;
+ }
+ 
